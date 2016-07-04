@@ -42,5 +42,8 @@ public class App {
 		
 		System.out.println(Operaciones.suma
 				(new Integer[] {10,11,12,13,14,15}));
+		
+		System.out.println(Operaciones.suma
+				(new Double[] {10.,11d,12d,13d,14d,15d}));
 	}
 }// fin class consola.App
